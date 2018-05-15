@@ -11,15 +11,16 @@
 A flood fill game written in Python 2.7 with FLTK.
 
 ## Gameplay
-The start in the upper left hand corner of the board.
-Tap the colored buttons along the bottom of the board to flood all adjacent filled cells with that
-color
-The aim of the game is to try to fill the entire board with a single
-color in less than the maximum number of allowed moves.
+The game begin with control over the top right box. When the colour buttons at the bottom of the window are clicked,
+all surrounding buttons of the same colour change colour.
 
-## Building / Installing
+The objective of the game is to have one uniform button colour executed below the recommended amount of turns.
+
+## Usage
 
 Ensure Python 2.7 and the FLTK toolkit are installed on your device
 
 FLTK can be easily installed on Centos and Ubuntu with the command
 sudo apt-get python-fltk
+
+python flood-it.py
