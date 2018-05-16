@@ -19,4 +19,7 @@ The objective of the game is to have one uniform button colour executed below th
 ## Usage : python flood-it.py
 
 For best results, please ensure Python 2.7 and the FLTK toolkit are installed on your device
-FLTK can be easily installed on Centos and Ubuntu with the command: sudo apt-get python-fltk
+FLTK can be easily installed on Centos and Ubuntu
+```
+sudo apt-get install python-fltk
+```
